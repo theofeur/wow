@@ -16,8 +16,8 @@
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
-        "is_ghost": false,
-        "average_item_level": 4
+        "is_ghost": true,
+        "average_item_level": 3
     },
     {
         "player": "Gab",
