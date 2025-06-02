@@ -22,7 +22,7 @@
     {
         "player": "Gab",
         "name": "Boulayaa",
-        "level": 11,
+        "level": 13,
         "class": "Priest",
         "specialization": null,
         "race": "Troll",
@@ -42,7 +42,7 @@
     {
         "player": "Betto",
         "name": "Yanng",
-        "level": 10,
+        "level": 12,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
@@ -82,16 +82,6 @@
     {
         "player": "Ezriel",
         "name": "homunculus",
-        "level": 0,
-        "class": null,
-        "race": null,
-        "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
-    },
-    {
-        "player": "Apog",
-        "name": "Cinegraphe",
         "level": 0,
         "class": null,
         "race": null,
