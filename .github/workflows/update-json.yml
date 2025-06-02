@@ -2,8 +2,8 @@ name: Update JSON from blizzard.py
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # toutes les 10 minutes (modifie si tu veux plus ou moins)
-  workflow_dispatch:         # permet de lancer manuellement
+    - cron: '*/2 * * * *'  # toutes les 2 minutes (modifie si tu veux)
+  workflow_dispatch:         # lancement manuel possible
 
 permissions:
   contents: write  # pour pouvoir push
@@ -28,8 +28,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Export API KEY
-      run: echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
+    - name: Export Blizzard API credentials
+      run: |
+        echo "CLIENT_ID=${{ secrets.CLIENT_ID }}" >> $GITHUB_ENV
+        echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET }}" >> $GITHUB_ENV
 
     - name: Run blizzard.py to generate JSON
       run: python blizzard.py
