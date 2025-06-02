@@ -2,7 +2,7 @@ name: Update JSON from blizzard.py
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # toutes les 2 minutes (modifie si tu veux)
+    - cron: '*/5 * * * *'  # toutes les 2 minutes (modifie si tu veux)
   workflow_dispatch:         # lancement manuel possible
 
 permissions:
