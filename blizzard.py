@@ -6,6 +6,13 @@ import os
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
+
+if not CLIENT_ID or not CLIENT_SECRET:
+    print("❌ CLIENT_ID ou CLIENT_SECRET manquant !")
+    sys.exit(1)
+else:
+    print(f"✅ CLIENT_ID and CLIENT_SECRET loaded (CLIENT_ID length: {len(CLIENT_ID)})")
+
 def get_access_token():
     url = "https://eu.battle.net/oauth/token"
     response = requests.post(
