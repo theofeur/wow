@@ -1,0 +1,52 @@
+[
+    {
+        "player": "Dhalianoir",
+        "name": "Kocainebear",
+        "level": 10,
+        "class": "Druid",
+        "specialization": null,
+        "race": "Tauren",
+        "is_ghost": false,
+        "average_item_level": 5
+    },
+    {
+        "player": "Apog",
+        "name": "Cinéphobe",
+        "level": 0,
+        "class": null,
+        "race": null,
+        "specialization": null,
+        "is_ghost": null,
+        "average_item_level": null
+    },
+    {
+        "player": "Gab",
+        "name": "Boulayaa",
+        "level": 11,
+        "class": "Priest",
+        "specialization": null,
+        "race": "Troll",
+        "is_ghost": false,
+        "average_item_level": 3
+    },
+    {
+        "player": "Apap",
+        "name": "Yangg",
+        "level": 0,
+        "class": null,
+        "race": null,
+        "specialization": null,
+        "is_ghost": null,
+        "average_item_level": null
+    },
+    {
+        "player": "Betto",
+        "name": "Yanng",
+        "level": 10,
+        "class": "Mage",
+        "specialization": null,
+        "race": "Troll",
+        "is_ghost": false,
+        "average_item_level": 4
+    }
+]
