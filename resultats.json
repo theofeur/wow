@@ -58,5 +58,15 @@
         "race": "Troll",
         "is_ghost": true,
         "average_item_level": 4
+    },
+    {
+        "player": "Tchouig",
+        "name": "Tchoux",
+        "level": 0,
+        "class": null,
+        "race": null,
+        "specialization": null,
+        "is_ghost": null,
+        "average_item_level": null
     }
 ]
