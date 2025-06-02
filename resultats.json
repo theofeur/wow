@@ -12,12 +12,12 @@
     {
         "player": "Apog",
         "name": "Cinéphobe",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "level": 10,
+        "class": "Mage",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Troll",
+        "is_ghost": false,
+        "average_item_level": 4
     },
     {
         "player": "Gab",
@@ -47,6 +47,16 @@
         "specialization": null,
         "race": "Troll",
         "is_ghost": false,
+        "average_item_level": 4
+    },
+    {
+        "player": "Ezriel",
+        "name": "Homoncoulous",
+        "level": 10,
+        "class": "Hunter",
+        "specialization": null,
+        "race": "Troll",
+        "is_ghost": true,
         "average_item_level": 4
     }
 ]

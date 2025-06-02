@@ -1,9 +1,10 @@
 import json
 import requests
 from urllib.parse import quote
+import os
 
-CLIENT_ID = "65898f1d96074d4a99d55b1197f6209d"
-CLIENT_SECRET = "L6D5sfS5hQLOG5sBlSEncN1wHFk2oTNp"
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
 def get_access_token():
     url = "https://eu.battle.net/oauth/token"
