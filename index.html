@@ -12,10 +12,18 @@
     margin: 0;
     padding: 20px;
   }
+
+  .ghost-row {
+    opacity: 0.5;
+    font-style: italic;
+    filter: grayscale(60%);
+  }
+
   h1 {
     text-align: center;
     margin-bottom: 1rem;
   }
+
   table {
     width: 100%;
     max-width: 900px;
@@ -26,106 +34,94 @@
     border-radius: 8px;
     overflow: hidden;
   }
+
   th, td {
     padding: 12px 15px;
     text-align: center;
   }
+
   thead {
     background: #292929;
   }
+
   tbody tr {
     border-bottom: 1px solid #333;
     transition: background-color 0.3s ease;
   }
+
   tbody tr:hover {
     background-color: #444 !important;
   }
-  tbody tr.inactive {
-    color: #777;
-  }
-  tbody tr.inactive:hover {
-    background-color: transparent !important;
-  }
+
   th {
     user-select: none;
   }
-  /* Niveau haut en vert, bas en gris */
+
   .level-high {
-  color: #ffff00; /* jaune foncé vif */
-  font-weight: 900; /* plus bold */
-}
+    color: #ffff00;
+    font-weight: 900;
+  }
 
-.level-low {
-  color: #555; /* gris un peu plus clair que avant */
-  font-weight: 600;
-}
+  .level-low {
+    color: #555;
+    font-weight: 600;
+  }
 
-  /* Fantôme */
-  .ghost-true {
-  color: #8B0000; /* rouge foncé */
-  font-weight: 700;
-}
-.ghost-false {
-  color: #006400; /* vert foncé */
-  font-weight: 700;
-}
-  /* Fonds par classe WoW Classic */
   .class-druid {
-  background-color: rgba(255, 140, 0, 0.6);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(255, 140, 0, 0.4);
-}
+    background-color: rgba(255, 	125, 	10, 	1.00);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(255, 140, 0, 0.4);
+  }
 
-.class-priest {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
-}
+  .class-priest {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
+  }
 
-.class-mage {
-  background-color: rgba(135, 206, 250, 0.7);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(135, 206, 250, 0.4);
-}
+  .class-mage {
+    background-color: rgba(64, 	199, 	235, 1);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(135, 206, 250, 0.4);
+  }
 
-.class-warrior {
-  background-color: rgba(192, 192, 192, 0.7);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(192, 192, 192, 0.4);
-}
+  .class-warrior {
+    background-color: rgba(199 ,	156, 	110 ,	0.78);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(192, 192, 192, 0.4);
+  }
 
-.class-rogue {
-  background-color: rgba(255, 255, 0, 0.7);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(255, 255, 0, 0.4);
-}
+  .class-rogue {
+    background-color: rgba(255, 	245, 	105, 	1.00);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(255, 255, 0, 0.4);
+  }
 
-.class-hunter {
-  background-color: rgba(34, 139, 34, 0.7);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(34, 139, 34, 0.4);
-}
+  .class-hunter {
+    background-color: rgba( 	169, 	210 ,	113 ,	0.67);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(34, 139, 34, 0.4);
+  }
 
-.class-warlock {
-  background-color: rgba(148, 0, 211, 0.7);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(148, 0, 211, 0.4);
-}
+  .class-warlock {
+    background-color: rgba(135 ,	135 ,	237 ,	0.53);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(148, 0, 211, 0.4);
+  }
 
-.class-shaman {
-  background-color: rgba(30, 144, 255, 0.7);
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(30, 144, 255, 0.4);
-}
-
+  .class-shaman {
+    background-color: rgba(0, 	112, 	222, 	1);
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(30, 144, 255, 0.4);
+  }
 
   @media (max-width: 600px) {
     table, thead, tbody, th, td, tr {
@@ -174,7 +170,6 @@
       <th>Niveau</th>
       <th>Classe</th>
       <th>Race</th>
-      <th>Mort</th>
       <th>Niveau moyen équipement</th>
     </tr>
   </thead>
@@ -195,117 +190,124 @@
       if (!response.ok) throw new Error(`Erreur HTTP ${response.status}`);
       let players = await response.json();
 
-      // Trie par niveau décroissant
+      // Tri : alive >= 10 > morts > bas niveau
       players.sort((a, b) => {
-  // Si un joueur est vivant et niveau >= 10 et l'autre pas, il doit passer devant
-  const aAliveHigh = (a.is_ghost === false || a.is_ghost === null) && a.level >= 10;
-  const bAliveHigh = (b.is_ghost === false || b.is_ghost === null) && b.level >= 10;
+        const aAliveHigh = (a.is_ghost === false || a.is_ghost === null) && a.level >= 10;
+        const bAliveHigh = (b.is_ghost === false || b.is_ghost === null) && b.level >= 10;
+        const aDead = a.is_ghost === true;
+        const bDead = b.is_ghost === true;
+        const aLow = a.level < 10;
+        const bLow = b.level < 10;
 
-  // Joueurs morts
-  const aDead = a.is_ghost === true;
-  const bDead = b.is_ghost === true;
+        if (aAliveHigh && !bAliveHigh) return -1;
+        if (!aAliveHigh && bAliveHigh) return 1;
 
-  // Joueurs bas niveau
-  const aLow = a.level < 10;
-  const bLow = b.level < 10;
+        if (aDead && !bDead) return bLow ? -1 : 1;
+        if (!aDead && bDead) return aLow ? 1 : -1;
 
-  // Ordre : aliveHigh > dead > lowLevel
-
-  // 1. Si aAliveHigh et b pas => a avant b
-  if (aAliveHigh && !bAliveHigh) return -1;
-  if (!aAliveHigh && bAliveHigh) return 1;
-
-  // 2. Si aDead et b pas => a après b (car dead vient après aliveHigh mais avant low)
-  if (aDead && !bDead) {
-    if (bLow) return -1;  // dead avant low
-    return 1;             // dead après aliveHigh (déjà traité)
-  }
-  if (!aDead && bDead) {
-    if (aLow) return 1;   // dead avant low
-    return -1;
-  }
-
-  // 3. Si les deux sont dead, ou les deux aliveHigh, ou les deux low, trier par niveau décroissant
-  return b.level - a.level;
-});
+        return b.level - a.level;
+      });
 
       const tbody = document.querySelector('#leaderboard tbody');
-      tbody.innerHTML = ''; // Clear previous content if any
+      tbody.innerHTML = '';
 
       players.forEach(player => {
-  const tr = document.createElement('tr');
-  if (player.class) {
-    tr.classList.add(classToClassName(player.class));
+        const tr = document.createElement('tr');
+        if (player.class) {
+          tr.classList.add(classToClassName(player.class));
+        }
+        if (player.is_ghost === true) {
+          tr.classList.add('ghost-row');
+        }
+
+        // Colonne Joueur
+        const tdPlayer = document.createElement('td');
+        tdPlayer.innerHTML = `<strong>${player.player ?? '-'}</strong>`;
+        tdPlayer.setAttribute('data-label', 'Joueur');
+        tr.appendChild(tdPlayer);
+
+        // Colonne Nom
+        const tdName = document.createElement('td');
+        tdName.setAttribute('data-label', 'Nom');
+        tdName.innerHTML = player.is_ghost === true
+          ? `👻 <em>${player.name}</em>`
+          : player.name;
+        tr.appendChild(tdName);
+
+        if (player.level < 10) {
+          const tdMessage = document.createElement('td');
+          tdMessage.colSpan = 4;
+          tdMessage.textContent = "Pas encore niveau 10";
+          tdMessage.style.fontStyle = "italic";
+          tdMessage.style.textAlign = "center";
+          tdMessage.style.color = "#555";
+          tr.appendChild(tdMessage);
+        } else {
+          const tdLevel = document.createElement('td');
+          tdLevel.textContent = player.level;
+          tdLevel.setAttribute('data-label', 'Niveau');
+          tdLevel.classList.add('level-high');
+          tr.appendChild(tdLevel);
+
+          const tdClass = document.createElement('td');
+          tdClass.textContent = player.class ?? '-';
+          tdClass.setAttribute('data-label', 'Classe');
+          tr.appendChild(tdClass);
+
+          const tdRace = document.createElement('td');
+          tdRace.textContent = player.race ?? '-';
+          tdRace.setAttribute('data-label', 'Race');
+          tr.appendChild(tdRace);
+
+          const tdItemLevel = document.createElement('td');
+          tdItemLevel.textContent = player.average_item_level ?? '-';
+          tdItemLevel.setAttribute('data-label', 'Niveau moyen équipement');
+          tr.appendChild(tdItemLevel);
+        }
+
+        tbody.appendChild(tr);
+      });
+// === Résumé par joueur ===
+const summaryContainer = document.createElement('div');
+summaryContainer.style.maxWidth = '900px';
+summaryContainer.style.margin = '2rem auto 0';
+summaryContainer.style.background = '#1e1e1e';
+summaryContainer.style.padding = '1rem';
+summaryContainer.style.borderRadius = '8px';
+summaryContainer.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)';
+summaryContainer.innerHTML = '<h2 style="text-align:center;">Résumé par joueur</h2>';
+
+const playerMap = new Map();
+
+players.forEach(p => {
+  const name = p.player ?? 'Inconnu';
+  if (!playerMap.has(name)) {
+    playerMap.set(name, { total: 0, morts: 0 });
   }
-  // Colonne Joueur (nouvelle)
-  const tdPlayer = document.createElement('td');
-  tdPlayer.textContent = player.player;  // premier nom
-  tdPlayer.setAttribute('data-label', 'Joueur');
-  tr.appendChild(tdPlayer);
-
-  // Colonne Nom (nom du perso)
-  const tdName = document.createElement('td');
-  tdName.textContent = player.name;  // nom du personnage
-  tdName.setAttribute('data-label', 'Nom');
-  tr.appendChild(tdName);
-
-  if (player.level < 10) {
-    // Fusionner les 5 autres colonnes avec un message
-    const tdMessage = document.createElement('td');
-    tdMessage.colSpan = 5; // total colonnes restantes
-    tdMessage.textContent = "Pas encore niveau 10";
-    tdMessage.style.fontStyle = "italic";
-    tdMessage.style.textAlign = "center";
-    tdMessage.style.color = "#555";
-    tr.appendChild(tdMessage);
-  } else {
-    // Niveau normal
-    const tdLevel = document.createElement('td');
-    tdLevel.textContent = player.level;
-    tdLevel.setAttribute('data-label', 'Niveau');
-    tdLevel.classList.add('level-high');
-    tr.appendChild(tdLevel);
-
-    const tdClass = document.createElement('td');
-    tdClass.textContent = player.class ?? '-';
-    tdClass.setAttribute('data-label', 'Classe');
-    tr.appendChild(tdClass);
-
-    const tdRace = document.createElement('td');
-    tdRace.textContent = player.race ?? '-';
-    tdRace.setAttribute('data-label', 'Race');
-    tr.appendChild(tdRace);
-
-    const tdGhost = document.createElement('td');
-    if (player.is_ghost === true) {
-      tdGhost.textContent = 'Oui';
-      tdGhost.classList.add('ghost-true');
-    } else if (player.is_ghost === false) {
-      tdGhost.textContent = 'Non';
-      tdGhost.classList.add('ghost-false');
-    } else {
-      tdGhost.textContent = '-';
-    }
-    tdGhost.setAttribute('data-label', 'Mort');
-    tr.appendChild(tdGhost);
-
-    const tdItemLevel = document.createElement('td');
-    tdItemLevel.textContent = player.average_item_level ?? '-';
-    tdItemLevel.setAttribute('data-label', 'Niveau moyen équipement');
-    tr.appendChild(tdItemLevel);
-  }
-
-  tbody.appendChild(tr);
+  const data = playerMap.get(name);
+  data.total += 1;
+  if (p.is_ghost === true) data.morts += 1;
 });
 
+const summaryList = document.createElement('ul');
+summaryList.style.listStyle = 'none';
+summaryList.style.padding = '0';
 
+playerMap.forEach((data, playerName) => {
+  const li = document.createElement('li');
+  li.innerHTML = `<strong>${playerName}</strong> : ${data.total} perso${data.total > 1 ? 's' : ''} (${data.morts} mort${data.morts !== 1 ? 's' : ''})`;
+  li.style.marginBottom = '0.5rem';
+  summaryList.appendChild(li);
+});
+
+summaryContainer.appendChild(summaryList);
+document.body.appendChild(summaryContainer);
     } catch (error) {
       console.error("Erreur lors du chargement du leaderboard :", error);
       document.body.insertAdjacentHTML('beforeend', `<p style="color:red; text-align:center;">Erreur de chargement des données : ${error.message}</p>`);
     }
   }
 
-  // Chargement au démarrage
   window.addEventListener('DOMContentLoaded', loadLeaderboard);
 </script>
 
