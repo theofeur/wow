@@ -82,12 +82,12 @@
     {
         "player": "Ezriel",
         "name": "homunculus",
-        "level": 14,
+        "level": 15,
         "class": "Hunter",
         "specialization": null,
         "race": "Troll",
         "is_ghost": false,
-        "average_item_level": 6
+        "average_item_level": 7
     },
     {
         "player": "Betto",
