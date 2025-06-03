@@ -72,12 +72,12 @@
     {
         "player": "Altai",
         "name": "Patap",
-        "level": 22,
+        "level": 23,
         "class": "Warrior",
         "specialization": null,
         "race": "Orc",
         "is_ghost": false,
-        "average_item_level": 13
+        "average_item_level": 14
     },
     {
         "player": "Ezriel",
