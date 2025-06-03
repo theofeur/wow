@@ -62,7 +62,7 @@
     {
         "player": "Tchouig",
         "name": "Tchoux",
-        "level": 15,
+        "level": 16,
         "class": "Rogue",
         "specialization": null,
         "race": "Orc",
@@ -82,7 +82,7 @@
     {
         "player": "Ezriel",
         "name": "homunculus",
-        "level": 11,
+        "level": 14,
         "class": "Hunter",
         "specialization": null,
         "race": "Troll",
@@ -102,7 +102,7 @@
     {
         "player": "Gab",
         "name": "Unemortpade",
-        "level": 15,
+        "level": 16,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
