@@ -92,12 +92,12 @@
     {
         "player": "Betto",
         "name": "ritchi",
-        "level": 12,
+        "level": 13,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
         "is_ghost": false,
-        "average_item_level": 4
+        "average_item_level": 5
     },
     {
         "player": "Gab",
@@ -112,11 +112,11 @@
     {
         "player": "Apog",
         "name": "Ciaokombucha",
-        "level": 10,
+        "level": 11,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
-        "is_ghost": false,
-        "average_item_level": 3
+        "is_ghost": true,
+        "average_item_level": 4
     }
 ]
