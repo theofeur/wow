@@ -272,11 +272,8 @@
 const summaryContainer = document.createElement('div');
 summaryContainer.style.maxWidth = '900px';
 summaryContainer.style.margin = '2rem auto 0';
-summaryContainer.style.background = '#1e1e1e';
-summaryContainer.style.padding = '1rem';
-summaryContainer.style.borderRadius = '8px';
-summaryContainer.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)';
-summaryContainer.innerHTML = '<h2 style="text-align:center;">Résumé par joueur</h2>';
+summaryContainer.style.padding = '0.5rem 1rem';
+summaryContainer.style.color = '#eee';
 
 const playerMap = new Map();
 
@@ -290,6 +287,21 @@ players.forEach(p => {
   if (p.is_ghost === true) data.morts += 1;
 });
 
+// Ajout manuel des morts ET des totaux correspondants
+function ajouterMorts(playerName, nb) {
+  if (!playerMap.has(playerName)) {
+    playerMap.set(playerName, { total: 0, morts: 0 });
+  }
+  const data = playerMap.get(playerName);
+  data.morts += nb;
+  data.total += nb;
+}
+
+ajouterMorts('Tchouig', 2);
+ajouterMorts('Apog', 3);
+ajouterMorts('Apap', 2);
+ajouterMorts('Ezriel', 1);
+
 const summaryList = document.createElement('ul');
 summaryList.style.listStyle = 'none';
 summaryList.style.padding = '0';
@@ -297,7 +309,7 @@ summaryList.style.padding = '0';
 playerMap.forEach((data, playerName) => {
   const li = document.createElement('li');
   li.innerHTML = `<strong>${playerName}</strong> : ${data.total} perso${data.total > 1 ? 's' : ''} (${data.morts} mort${data.morts !== 1 ? 's' : ''})`;
-  li.style.marginBottom = '0.5rem';
+  li.style.marginBottom = '0.3rem';
   summaryList.appendChild(li);
 });
 
