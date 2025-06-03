@@ -82,12 +82,12 @@
     {
         "player": "Ezriel",
         "name": "homunculus",
-        "level": 10,
+        "level": 11,
         "class": "Hunter",
         "specialization": null,
         "race": "Troll",
         "is_ghost": false,
-        "average_item_level": 4
+        "average_item_level": 6
     },
     {
         "player": "Betto",
@@ -102,7 +102,7 @@
     {
         "player": "Gab",
         "name": "Unemortpade",
-        "level": 13,
+        "level": 15,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
