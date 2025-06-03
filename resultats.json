@@ -2,12 +2,12 @@
     {
         "player": "Dhalianoir",
         "name": "Kocainebear",
-        "level": 17,
+        "level": 18,
         "class": "Druid",
         "specialization": null,
         "race": "Tauren",
         "is_ghost": false,
-        "average_item_level": 9
+        "average_item_level": 12
     },
     {
         "player": "Apog",
@@ -102,7 +102,7 @@
     {
         "player": "Gab",
         "name": "Unemortpade",
-        "level": 17,
+        "level": 19,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
