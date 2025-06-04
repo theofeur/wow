@@ -62,22 +62,22 @@
     {
         "player": "Tchouig",
         "name": "Tchoux",
-        "level": 19,
+        "level": 20,
         "class": "Rogue",
         "specialization": null,
         "race": "Orc",
         "is_ghost": false,
-        "average_item_level": 12
+        "average_item_level": 14
     },
     {
         "player": "Altai",
         "name": "Patap",
-        "level": 23,
+        "level": 25,
         "class": "Warrior",
         "specialization": null,
         "race": "Orc",
         "is_ghost": false,
-        "average_item_level": 14
+        "average_item_level": 15
     },
     {
         "player": "Ezriel",
