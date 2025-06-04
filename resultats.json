@@ -102,12 +102,12 @@
     {
         "player": "Gab",
         "name": "Unemortpade",
-        "level": 19,
+        "level": 20,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
         "is_ghost": false,
-        "average_item_level": 8
+        "average_item_level": 9
     },
     {
         "player": "Apog",
