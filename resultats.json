@@ -128,5 +128,15 @@
         "specialization": null,
         "is_ghost": null,
         "average_item_level": null
+    },
+    {
+        "player": "Ezriel",
+        "name": "Bladesend",
+        "level": 11,
+        "class": "Warrior",
+        "specialization": null,
+        "race": "Orc",
+        "is_ghost": false,
+        "average_item_level": 6
     }
 ]
