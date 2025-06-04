@@ -67,7 +67,7 @@
         "specialization": null,
         "race": "Orc",
         "is_ghost": false,
-        "average_item_level": 7
+        "average_item_level": 10
     },
     {
         "player": "Altai",
@@ -102,12 +102,12 @@
     {
         "player": "Gab",
         "name": "Unemortpade",
-        "level": 20,
+        "level": 21,
         "class": "Mage",
         "specialization": null,
         "race": "Troll",
         "is_ghost": false,
-        "average_item_level": 9
+        "average_item_level": 11
     },
     {
         "player": "Apog",
