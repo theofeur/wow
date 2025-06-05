@@ -122,12 +122,12 @@
     {
         "player": "Apog",
         "name": "Esseulé",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "level": 10,
+        "class": "Warlock",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Orc",
+        "is_ghost": false,
+        "average_item_level": 2
     },
     {
         "player": "Ezriel",
