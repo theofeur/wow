@@ -2,12 +2,12 @@
     {
         "player": "Dhalianoir",
         "name": "Kocainebear",
-        "level": 27,
+        "level": 28,
         "class": "Druid",
         "specialization": null,
         "race": "Tauren",
         "is_ghost": false,
-        "average_item_level": 19
+        "average_item_level": 20
     },
     {
         "player": "Apog",
@@ -62,12 +62,12 @@
     {
         "player": "Tchouig",
         "name": "Tchoux",
-        "level": 26,
+        "level": 27,
         "class": "Rogue",
         "specialization": null,
         "race": "Orc",
         "is_ghost": false,
-        "average_item_level": 18
+        "average_item_level": 20
     },
     {
         "player": "Altai",
