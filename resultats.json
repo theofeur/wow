@@ -32,12 +32,12 @@
     {
         "player": "Apap",
         "name": "Yingg",
-        "level": 21,
+        "level": 22,
         "class": "Hunter",
         "specialization": null,
         "race": "Troll",
         "is_ghost": false,
-        "average_item_level": 12
+        "average_item_level": 14
     },
     {
         "player": "Betto",
