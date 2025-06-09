@@ -32,32 +32,32 @@
     {
         "player": "Apap",
         "name": "Yingg",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "level": 24,
+        "class": "Hunter",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Troll",
+        "is_ghost": true,
+        "average_item_level": 16
     },
     {
         "player": "Betto",
         "name": "Yanng",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "level": 12,
+        "class": "Mage",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Troll",
+        "is_ghost": true,
+        "average_item_level": 5
     },
     {
         "player": "Ezriel",
         "name": "Homoncoulous",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "level": 10,
+        "class": "Hunter",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Troll",
+        "is_ghost": true,
+        "average_item_level": 4
     },
     {
         "player": "Tchouig",
