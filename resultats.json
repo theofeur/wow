@@ -62,12 +62,12 @@
     {
         "player": "Tchouig",
         "name": "Tchoux",
-        "level": 32,
+        "level": 33,
         "class": "Rogue",
         "specialization": null,
         "race": "Orc",
         "is_ghost": false,
-        "average_item_level": 25
+        "average_item_level": 26
     },
     {
         "player": "Altai",
