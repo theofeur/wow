@@ -92,12 +92,12 @@
     {
         "player": "Betto",
         "name": "ritchi",
-        "level": 14,
-        "class": "Mage",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Troll",
-        "is_ghost": false,
-        "average_item_level": 5
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Gab",
