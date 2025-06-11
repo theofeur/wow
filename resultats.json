@@ -7,7 +7,7 @@
         "specialization": null,
         "race": "Tauren",
         "is_ghost": false,
-        "average_item_level": 28
+        "average_item_level": 30
     },
     {
         "player": "Apog",
@@ -62,12 +62,12 @@
     {
         "player": "Tchouig",
         "name": "Tchoux",
-        "level": 34,
+        "level": 36,
         "class": "Rogue",
         "specialization": null,
         "race": "Orc",
         "is_ghost": false,
-        "average_item_level": 25
+        "average_item_level": 27
     },
     {
         "player": "Altai",
