@@ -2,12 +2,12 @@
     {
         "player": "Dhalianoir",
         "name": "Kocainebear",
-        "level": 43,
+        "level": 44,
         "class": "Druid",
         "specialization": null,
         "race": "Tauren",
-        "is_ghost": false,
-        "average_item_level": 33
+        "is_ghost": true,
+        "average_item_level": 34
     },
     {
         "player": "Apog",
