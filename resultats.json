@@ -72,12 +72,12 @@
     {
         "player": "Altai",
         "name": "Patap",
-        "level": 26,
-        "class": "Warrior",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Orc",
-        "is_ghost": true,
-        "average_item_level": 16
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Ezriel",
@@ -102,12 +102,12 @@
     {
         "player": "Gab",
         "name": "Unemortpade",
-        "level": 29,
-        "class": "Mage",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Troll",
-        "is_ghost": false,
-        "average_item_level": 20
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Apog",
