@@ -62,12 +62,12 @@
     {
         "player": "Burak",
         "name": "Seksiburak",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "level": 11,
+        "class": "Paladin",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Human",
+        "is_ghost": true,
+        "average_item_level": 5
     },
     {
         "player": "Apap",
