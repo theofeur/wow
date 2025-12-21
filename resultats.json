@@ -1,43 +1,33 @@
 [
     {
         "player": "Dhalianoir",
-        "name": "Kocainebear",
-        "level": 44,
-        "class": "Druid",
+        "name": "Uhcdhalia",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Tauren",
-        "is_ghost": true,
-        "average_item_level": 34
-    },
-    {
-        "player": "Apog",
-        "name": "Cinéphobe",
-        "level": 10,
-        "class": "Mage",
-        "specialization": null,
-        "race": "Troll",
-        "is_ghost": true,
-        "average_item_level": 3
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Gab",
-        "name": "Boulayaa",
-        "level": 15,
-        "class": "Priest",
+        "name": "Glândâlf",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Troll",
-        "is_ghost": true,
-        "average_item_level": 5
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Apap",
-        "name": "Yingg",
-        "level": 24,
-        "class": "Hunter",
+        "name": "Azrsdfq",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Troll",
-        "is_ghost": true,
-        "average_item_level": 16
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Betto",
@@ -50,93 +40,73 @@
         "average_item_level": 5
     },
     {
-        "player": "Ezriel",
-        "name": "Homoncoulous",
-        "level": 10,
-        "class": "Hunter",
+        "player": "Altai",
+        "name": "Theodorazz",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Troll",
-        "is_ghost": true,
-        "average_item_level": 4
-    },
-    {
-        "player": "Tchouig",
-        "name": "Tchoux",
-        "level": 40,
-        "class": "Rogue",
-        "specialization": null,
-        "race": "Orc",
-        "is_ghost": false,
-        "average_item_level": 33
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Altai",
-        "name": "Patap",
-        "level": 26,
-        "class": "Warrior",
+        "name": "Seconderun",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Orc",
-        "is_ghost": true,
-        "average_item_level": 16
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
-        "player": "Ezriel",
-        "name": "homunculus",
-        "level": 16,
-        "class": "Hunter",
+        "player": "Burak",
+        "name": "Seksiburak",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Troll",
-        "is_ghost": true,
-        "average_item_level": 8
+        "is_ghost": null,
+        "average_item_level": null
+    },
+    {
+        "player": "Apap",
+        "name": "Reveriex",
+        "level": 0,
+        "class": null,
+        "race": null,
+        "specialization": null,
+        "is_ghost": null,
+        "average_item_level": null
+    },
+    {
+        "player": "Apap",
+        "name": "yingg",
+        "level": 0,
+        "class": null,
+        "race": null,
+        "specialization": null,
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Betto",
-        "name": "ritchi",
-        "level": 14,
-        "class": "Mage",
+        "name": "betto",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Troll",
+        "is_ghost": null,
+        "average_item_level": null
+    },
+    {
+        "player": "Altai",
+        "name": "Gaattouzz",
+        "level": 11,
+        "class": "Priest",
+        "specialization": null,
+        "race": "Dwarf",
         "is_ghost": false,
         "average_item_level": 5
-    },
-    {
-        "player": "Gab",
-        "name": "Unemortpade",
-        "level": 29,
-        "class": "Mage",
-        "specialization": null,
-        "race": "Troll",
-        "is_ghost": false,
-        "average_item_level": 20
-    },
-    {
-        "player": "Apog",
-        "name": "Ciaokombucha",
-        "level": 11,
-        "class": "Mage",
-        "specialization": null,
-        "race": "Troll",
-        "is_ghost": true,
-        "average_item_level": 4
-    },
-    {
-        "player": "Apog",
-        "name": "Esseulé",
-        "level": 14,
-        "class": "Warlock",
-        "specialization": null,
-        "race": "Orc",
-        "is_ghost": false,
-        "average_item_level": 8
-    },
-    {
-        "player": "Ezriel",
-        "name": "Bladesend",
-        "level": 25,
-        "class": "Warrior",
-        "specialization": null,
-        "race": "Orc",
-        "is_ghost": false,
-        "average_item_level": 18
     }
 ]
