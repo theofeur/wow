@@ -2,12 +2,12 @@
     {
         "player": "Dhalianoir",
         "name": "uhcdhalia",
-        "level": 13,
+        "level": 16,
         "class": "Paladin",
         "specialization": null,
         "race": "Human",
         "is_ghost": false,
-        "average_item_level": 6
+        "average_item_level": 7
     },
     {
         "player": "Gab",
