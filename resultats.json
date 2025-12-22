@@ -1,8 +1,8 @@
 [
     {
         "player": "Dhalianoir",
-        "name": "Uhcdhalia",
-        "level": 12,
+        "name": "uhcdhalia",
+        "level": 13,
         "class": "Paladin",
         "specialization": null,
         "race": "Human",
@@ -71,13 +71,13 @@
     },
     {
         "player": "Apap",
-        "name": "Reveriex",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "name": "reveriex",
+        "level": 11,
+        "class": "Warrior",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Human",
+        "is_ghost": false,
+        "average_item_level": 6
     },
     {
         "player": "Apap",
@@ -102,11 +102,11 @@
     {
         "player": "Altai",
         "name": "Gaattouzz",
-        "level": 11,
+        "level": 14,
         "class": "Priest",
         "specialization": null,
         "race": "Dwarf",
         "is_ghost": false,
-        "average_item_level": 5
+        "average_item_level": 7
     }
 ]
