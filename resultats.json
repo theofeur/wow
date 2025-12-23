@@ -6,8 +6,8 @@
         "class": "Mage",
         "specialization": null,
         "race": "Gnome",
-        "is_ghost": false,
-        "average_item_level": 6
+        "is_ghost": true,
+        "average_item_level": 7
     },
     {
         "player": "Gab",
