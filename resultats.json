@@ -2,12 +2,12 @@
     {
         "player": "Dhalianoir",
         "name": "uhcdhalia",
-        "level": 10,
+        "level": 11,
         "class": "Mage",
         "specialization": null,
         "race": "Gnome",
         "is_ghost": false,
-        "average_item_level": 4
+        "average_item_level": 5
     },
     {
         "player": "Gab",
