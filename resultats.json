@@ -102,11 +102,11 @@
     {
         "player": "Altai",
         "name": "Gaattouzz",
-        "level": 0,
-        "class": null,
-        "race": null,
+        "level": 16,
+        "class": "Priest",
         "specialization": null,
-        "is_ghost": null,
-        "average_item_level": null
+        "race": "Dwarf",
+        "is_ghost": true,
+        "average_item_level": 8
     }
 ]
