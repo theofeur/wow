@@ -2,22 +2,22 @@
     {
         "player": "Dhalianoir",
         "name": "uhcdhalia",
-        "level": 14,
-        "class": "Mage",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Gnome",
-        "is_ghost": true,
-        "average_item_level": 7
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Gab",
         "name": "Glândâlf",
-        "level": 10,
-        "class": "Warlock",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Gnome",
-        "is_ghost": false,
-        "average_item_level": 4
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Apap",
