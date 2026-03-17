@@ -72,12 +72,12 @@
     {
         "player": "Apap",
         "name": "reveriex",
-        "level": 12,
-        "class": "Warrior",
+        "level": 0,
+        "class": null,
+        "race": null,
         "specialization": null,
-        "race": "Human",
-        "is_ghost": true,
-        "average_item_level": 6
+        "is_ghost": null,
+        "average_item_level": null
     },
     {
         "player": "Apap",
